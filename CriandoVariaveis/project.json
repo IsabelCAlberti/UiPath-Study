@@ -1,17 +1,16 @@
 {
-  "name": "ExcelConsolidation",
-  "projectId": "750c6414-974e-4636-ac66-9252bebc0460",
-  "description": "Blank Process",
+  "name": "Creating Variables_Windows",
+  "projectId": "41be2f58-3af2-4460-a8b8-e8ebbdef0bbd",
+  "description": "To create a workflow that asks for input from the user and saves the answer to a string variable, then assigns a value to another string variable and logs a message with the two values. ",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.16.1]",
-    "UiPath.System.Activities": "[22.10.4]"
+    "UiPath.System.Activities": "[22.10.3]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.10.3.0",
-  "projectVersion": "1.0.0",
+  "studioVersion": "20.10.6.0",
+  "projectVersion": "1.0.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -27,7 +26,7 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": true,
+    "mustRestoreAllDependencies": false,
     "pipType": "ChildSession"
   },
   "designOptions": {
@@ -48,7 +47,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "c729be1a-845f-4879-9290-0059b5b7ba9b",
+      "uniqueId": "6d446862-81eb-4a56-aac8-010f4270b755",
       "input": [],
       "output": []
     }

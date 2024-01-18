@@ -1,16 +1,19 @@
 {
-  "name": "ExcelConsolidation",
-  "projectId": "750c6414-974e-4636-ac66-9252bebc0460",
-  "description": "Blank Process",
+  "name": "ProcessoEmBranco",
+  "projectId": "a646f352-6818-476f-9237-9db878f41c11",
+  "description": "Processo em Branco",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.16.1]",
-    "UiPath.System.Activities": "[22.10.4]"
+    "UiPath.Excel.Activities": "[2.22.2]",
+    "UiPath.Mail.Activities": "[1.21.1]",
+    "UiPath.System.Activities": "[23.10.2]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.10.3]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.10.3.0",
+  "studioVersion": "23.10.0.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
@@ -48,7 +51,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "c729be1a-845f-4879-9290-0059b5b7ba9b",
+      "uniqueId": "cc97026f-5af2-44d1-94b4-d35728322140",
       "input": [],
       "output": []
     }
